@@ -19,6 +19,7 @@ temp/
 !.gitconfig
 !.gitignore
 !.cargo/**
+!.config/nvim/**
 !.local/**
 !.p10k.zsh
 !.oh-my-zsh/**
@@ -29,5 +30,7 @@ temp/
 
 # Except these
 .local/lib/
+.local/share/Nuget/
+.local/share/nvim/swap/
 .oh-my-zsh/.git
 .tmux/plugins/tmux-resurrect

@@ -1,0 +1,19 @@
+[user]
+	name = Dave Smith
+	email = dsmith@rwbaird.com
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+[http]
+	postBuffer = 1048576000
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[core]
+	compression = 9
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe

@@ -18,15 +18,16 @@ temp/
 # Include these explicitly
 !.gitconfig
 !.gitignore
-!.cargo/*
-!.local/*
+!.cargo/**
+!.local/**
 !.p10k.zsh
 !.oh-my-zsh/**
-!.tmux/*
+!.tmux/**
 !.tmux.conf
 !.zshenv
 !.zshrc
 
 # Except these
+.local/lib/
 .oh-my-zsh/.git
 .tmux/plugins/tmux-resurrect

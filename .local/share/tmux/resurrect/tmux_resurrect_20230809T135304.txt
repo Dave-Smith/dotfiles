@@ -1,0 +1,17 @@
+pane	BatCave	1	0	:-	1	MIT-L-U30258	:/mnt/c/git/ficm/FICMTradingTools	1	zsh	:
+pane	BatCave	2	1	:*	1	MIT-L-U30258	:/mnt/c/git/ficm/FICMTradingTools	1	zsh	:
+pane	algos	1	1	:*	1	MIT-L-U30258	:/home/dsmith/git/personal/kata-machine	1	zsh	:
+pane	cost-o-carry	1	1	:*	1	MIT-L-U30258	:/mnt/c/git/ficm/CostOfCarryCalculator	1	zsh	:
+pane	oauth-sf	1	0	:-	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	go	:go run .
+pane	oauth-sf	2	1	:*	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	zsh	:
+pane	oauth-sf	3	0	:	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	zsh	:
+pane	salesforce	1	1	:*	1	MIT-L-U30258	:/mnt/c/git/sf	1	zsh	:
+window	BatCave	1	:ficm-file-converter	0	:-	c27e,146x45,0,0,1	off
+window	BatCave	2	:[tmux]	1	:*	c284,146x45,0,0,7	:
+window	algos	1	:zsh	1	:*	c27f,146x45,0,0,2	:
+window	cost-o-carry	1	:zsh	1	:*	c280,146x45,0,0,3	:
+window	oauth-sf	1	:go	0	:-	c285,146x45,0,0,8	:
+window	oauth-sf	2	:oauth-curl	1	:*	c286,146x45,0,0,9	off
+window	oauth-sf	3	:zsh	0	:	616f,146x45,0,0,10	:
+window	salesforce	1	:zsh	1	:*	c281,146x45,0,0,4	:
+state	BatCave	

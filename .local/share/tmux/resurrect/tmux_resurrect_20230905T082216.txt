@@ -1,0 +1,13 @@
+pane	8	1	1	:*	1	MIT-L-U30258	:/home/dsmith	1	zsh	:
+pane	BatCave	2	1	:*	1	MIT-L-U30258	:/home/dsmith/git/ficm	1	zsh	:
+pane	general	1	1	:*	1	\\\\\\\\\\\\\\\\wsl$\\\\\\\\Ubuntu\\\\\\\\usr\\\\\\\\local\\\\\\\\lib\\\\\\\\node_modules\\\\\\\\vsts-npm-auth\\\\\\\\bin\\\\\\\\vsts-npm-auth.exe	:/home/dsmith/temp	1	zsh	:
+pane	oauth-sf	1	0	:-	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	zsh	:
+pane	oauth-sf	2	1	:*	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	zsh	:
+pane	oauth-sf	3	0	:	1	MIT-L-U30258	:/home/dsmith/git/webserver-go	1	zsh	:
+window	8	1	:[tmux]	1	:*	6171,146x45,0,0,12	:
+window	BatCave	2	:zsh	1	:*	c280,146x45,0,0,3	:
+window	general	1	:zsh	1	:*	c282,146x45,0,0,5	:
+window	oauth-sf	1	:zsh	0	:-	c284,146x45,0,0,7	:
+window	oauth-sf	2	:oauth-curl	1	:*	c285,146x45,0,0,8	off
+window	oauth-sf	3	:zsh	0	:	c286,146x45,0,0,9	:
+state	8	

@@ -1,0 +1,14 @@
+[alias]
+	st = status
+	co = checkout
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	undo = reset --soft HEAD^
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[user]
+	name = Dave
+	email = davesmithsemail@gmail.com
+[safe]
+	directory = /usr/src/app
+[init]
+	defaultBranch = main

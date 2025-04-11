@@ -1,0 +1,36 @@
+# Ignore everything by default
+*
+
+# Whitelist directories
+!*/
+
+# Ignore git repos in home
+git
+
+# Exclude installed tools
+.cargo/
+.bun/
+go/
+
+# Exclude temp
+temp/
+
+# Include these explicitly
+!.gitconfig
+!.gitignore
+!.cargo/**
+!.config/nvim/**
+!.local/**
+!.p10k.zsh
+!.oh-my-zsh/**
+!.tmux/**
+!.tmux.conf
+!.zshenv
+!.zshrc
+
+# Except these
+.local/lib/
+.local/share/Nuget/
+.local/share/nvim/swap/
+.oh-my-zsh/.git
+.tmux/plugins/tmux-resurrect
